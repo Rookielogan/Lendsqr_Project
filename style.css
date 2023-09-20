@@ -66,13 +66,13 @@ h2 {
 }
 
 .btn-project {
+    color: white;
     border: 2px solid #39CDCC;
     background-color: #39CDCC;
 }
 
 div.side-nav {
     background-color: white;
-
     width: 283px;
     box-shadow: 0.1px 0px 1px 0px rgba(0, 0, 0, 0.336);
 }
@@ -157,7 +157,7 @@ div.col-lg-9 h6 {
     background-color: #5618ff27;
 }
 
-.loan-card-icon{
+.loan-card-icon {
     margin-top: 16px;
     margin-left: 15px;
     text-align: center;
@@ -167,6 +167,7 @@ div.col-lg-9 h6 {
     border-radius: 40px;
     background-color: #f55f4433;
 }
+
 .savings-card-icon {
     margin-top: 16px;
     margin-left: 15px;
@@ -213,10 +214,20 @@ td {
 }
 
 /* dropdown filter form elements */
-select.form-control {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 0px;
+label {
+    color: #545F7D;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+}
+
+ul.drop-filter button {
+    margin-left: 10px;
+    width: 98px;
+    height: 40px;
 }
 
 /* badges */
