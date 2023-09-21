@@ -79,6 +79,7 @@ div.side-nav {
 
 .active {
     color: #213F7D;
+    opacity: 100;
     background-color: #39cdcd1f;
     height: 40px;
     width: 105%;
@@ -273,4 +274,16 @@ ul.drop-filter button {
     width: 80px;
     height: 30px;
     border-radius: 100px;
+}
+
+.dropdown-item{
+    color: #545F7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+li svg{
+    margin-right: 7px;
+    margin-left: 2px;
 }
