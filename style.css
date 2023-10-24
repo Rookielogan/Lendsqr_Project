@@ -78,13 +78,23 @@ div.side-nav {
 }
 
 .active {
-    color: #213F7D;
-    opacity: 100;
+    color: #21407d;
+    /* opacity: 100; */
     background-color: #39cdcd1f;
     height: 40px;
     width: 105%;
     border-left: 3px solid #39CDCC;
     padding-left: 20px;
+}
+
+.nav-link:hover {
+    color: #213F7D;
+    /* opacity: 100; */
+    background-color: #39cdcd1f;
+    height: 40px;
+    width: 105%;
+    border-left: 3px solid #39CDCC;
+    /* padding-left: 20px; */
 }
 
 .nav-link {
@@ -319,7 +329,8 @@ li svg {
     opacity: 0.2;
     background: #545F7D;
 }
-.stars{
+
+.stars {
     width: fit-content;
     text-align: center;
     overflow: auto;
